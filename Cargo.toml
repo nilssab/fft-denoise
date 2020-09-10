@@ -1,0 +1,12 @@
+[package]
+name = "fft-denoise"
+version = "0.1.0"
+authors = ["Nils Sabelström <Nilssab@gmail.com>"]
+edition = "2018"
+description = "FFT denoiser for 2D data measurements with high noise"
+readme = "README.md"
+repository = "https://github.com/nilssab/fft-denoise/"
+license = "MIT"
+
+[dependencies]
+rustfft = "3.0"
